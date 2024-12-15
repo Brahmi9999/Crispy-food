@@ -1,0 +1,222 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Nav bar start*/
+nav{
+    display: flex;
+    background-color: orangered;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px rgb(192, 190, 190);
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 20px;
+}
+nav>a{
+    padding: 5px;
+    font-size: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    color: orangered;
+    border: 2px solid white;
+    border-radius: 10%;
+    background-color: white;
+}
+/*Nav bar End*/
+/*Delicious Start*/
+.r1{
+    display: flex;
+    padding: 40px;
+    margin: 25px;
+    background-color: rgb(248,249,251);
+} 
+.img1 img{
+    border-radius: 50%;
+    height: 450px;
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+}
+.button{
+    margin: 10px;
+}
+.button .one{
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+.button .two{
+    background-color: orangered;
+    color: white;
+    height: 20px;
+}
+/*Delicious End*/
+/*About styles start*/
+.about .title{
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+.about{
+    margin: 15px 55px;
+}
+.about .row{
+    display: flex;
+    padding: 0px, 30px;
+}
+.about .col{
+    padding: 5px;
+    margin: 10px;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: 2px auto;
+}
+.row .img .fa-solid{
+    padding: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid;
+    background-color: orangered;
+    color: white;
+}
+.img{
+   font-size: 30px;
+}
+/*About styles end*/
+/*testimonial styles start*/
+#testimonials .title{
+    text-align: center;
+    text-decoration: none;
+}
+#testimonials{
+    margin: 0px 40px;
+}
+#testimonials .row{
+    display: flex;
+    padding: 0px, 30px;
+}
+#testimonials .col{
+   width: 33.33%;
+}
+#testimonials .style:hover{
+    box-shadow: 0 0 10px rgb(43, 42, 42);
+}
+#testimonials .style{
+    background-color: rgb(248,90,63);
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgb(183, 180, 180);
+}
+#testimonials i{
+   color: white;
+   font-size: 35px;
+}
+#testimonials p{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+/*testimonials styles end*/
+/*Latest styles start*/
+.latest .title{
+    text-align: center;
+    text-decoration: none;
+}
+.latest{
+    margin: 0px 30px;
+}
+.latest .row{
+    display: flex;
+    padding: 10px 30px;
+    margin-top: 50px;
+}
+.latest .col{
+    width: 50%;
+}
+.latest .style{
+    background-color: white;
+    padding-left: 5px;
+}
+.latest .style-img{
+    background-color: white;
+    padding-right: 5px;
+}
+.latest h3{
+    color: rgb(64,78,101)rgb(64,78,101);
+    padding-left: 10px;
+}
+.latest p{
+    color: rgb(185,190,199);
+    padding: 10px;
+    word-spacing: 2px;
+}
+.latest h6{
+    padding-left: 10px;
+}
+ .row .one{
+    padding-left: 5px;
+    height: 30px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+/*Latest styles end*/
+/*Border Styles start*/
+.border{
+    border: 3px solid  rgb(248,90,63);
+    margin: -2px;
+    background-color: rgb(248,90,63); 
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+body{
+    overflow-x: hidden;
+}
+.border h6{
+    padding: 10px;
+}
+/*Border Styles end*/
+/*Footer styles start*/
+.foot{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    margin: -2px;
+}
+.foot a{
+    text-decoration: none;
+    color: rgb(119,118,119);
+}
+.foot ul{
+    list-style-type: none;
+}
+.foot ul li h2{
+    color: white;
+}
+.foot ul li{
+    color: rgb(119,118,119);
+    padding: 5px;
+}
+.brahmi{
+    text-align: center;
+    background-color: black;
+    color:  rgb(119,118,119);
+}
+/*Footer styles end*/
